@@ -9,21 +9,21 @@
 /* Begin PBXBuildFile section */
 		9D2BBD0B21B7C72400446DE4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D2BBD0A21B7C72400446DE4 /* AppDelegate.swift */; };
 		9D2BBD0D21B7C72400446DE4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D2BBD0C21B7C72400446DE4 /* ViewController.swift */; };
-		9D2BBD1021B7C72400446DE4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D2BBD0E21B7C72400446DE4 /* Main.storyboard */; };
 		9D2BBD1321B7C72400446DE4 /* DietDoctorC.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9D2BBD1121B7C72400446DE4 /* DietDoctorC.xcdatamodeld */; };
 		9D2BBD1521B7C72400446DE4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D2BBD1421B7C72400446DE4 /* Assets.xcassets */; };
 		9D2BBD1821B7C72400446DE4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D2BBD1621B7C72400446DE4 /* LaunchScreen.storyboard */; };
+		9D2BBD2021B7C77400446DE4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D2BBD1F21B7C77400446DE4 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		9D2BBD0721B7C72300446DE4 /* DietDoctorC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DietDoctorC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D2BBD0A21B7C72400446DE4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9D2BBD0C21B7C72400446DE4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		9D2BBD0F21B7C72400446DE4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9D2BBD1221B7C72400446DE4 /* DietDoctorC.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DietDoctorC.xcdatamodel; sourceTree = "<group>"; };
 		9D2BBD1421B7C72400446DE4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9D2BBD1721B7C72400446DE4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9D2BBD1921B7C72400446DE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9D2BBD1F21B7C77400446DE4 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +58,7 @@
 			children = (
 				9D2BBD0A21B7C72400446DE4 /* AppDelegate.swift */,
 				9D2BBD0C21B7C72400446DE4 /* ViewController.swift */,
-				9D2BBD0E21B7C72400446DE4 /* Main.storyboard */,
+				9D2BBD1F21B7C77400446DE4 /* Main.storyboard */,
 				9D2BBD1421B7C72400446DE4 /* Assets.xcassets */,
 				9D2BBD1621B7C72400446DE4 /* LaunchScreen.storyboard */,
 				9D2BBD1921B7C72400446DE4 /* Info.plist */,
@@ -128,7 +128,7 @@
 			files = (
 				9D2BBD1821B7C72400446DE4 /* LaunchScreen.storyboard in Resources */,
 				9D2BBD1521B7C72400446DE4 /* Assets.xcassets in Resources */,
-				9D2BBD1021B7C72400446DE4 /* Main.storyboard in Resources */,
+				9D2BBD2021B7C77400446DE4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -148,14 +148,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		9D2BBD0E21B7C72400446DE4 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9D2BBD0F21B7C72400446DE4 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		9D2BBD1621B7C72400446DE4 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
